@@ -1,0 +1,1313 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.head{
+	width: 100%;
+	height: 10px;
+	background: #ffbf11;
+}
+
+.firstHeader{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+	.marginHeader{
+		width: 90%;
+		height: 150px;
+		display: flex;
+		justify-content: space-between;	
+	}
+				.logo{
+					width: auto;
+					height: auto;
+				}
+					.logoImg{
+						width: 300px;
+			   		    height: 63px;
+			   		    margin-top: 40px;
+					}
+				.search{
+					width: 500px;
+					height: auto;
+					margin-top: 39px;
+				}	
+					.search span{font-size: 16px;}
+					.block {
+						width: 500px;
+						height: 40px;
+						background: red;
+						display: flex;
+						justify-content: space-between;	
+					    margin-top: 9px;
+					}
+						.block input{
+							width: 380px;
+							height: 38px;
+							border: 1px solid #000;
+							outline: none;
+							padding-left: 10px;
+						}
+						.block button{
+							width: 120px;
+							height: 40px;
+							border: none;
+							outline: none;
+							font-size: 20px;
+							background: #ffbf11;
+						}
+
+				.logo_two{
+					width: auto;
+					height: auto;
+				}
+					.zapshasti{
+						width: 372px;
+						height: 50px;
+						margin-top: 50px;
+					}
+/*------------------------menu----------------------------*/
+
+.menu{
+	width: 100%;
+	height: 70px;
+	background: #ffbf11;
+	display: flex;
+	justify-content: center;
+} 
+	.menuMargin{
+		width: 1230px;
+		height: auto;
+		margin-top: 17px;
+	}
+
+		
+		.menuMargin li{
+			display: inline-block;
+			list-style: none;
+			position: relative;
+		}
+		.menuMargin li:hover .positionAbsolute{display: block;}
+		.menuMargin a{
+			text-decoration: none;
+			color: #fff;
+			font-weight: bold;
+			font-size: 20px;
+			display: block;
+	        padding: 4px 13px;
+		}	
+		.borderSize:hover{border-bottom: 2px solid #fff;}
+		.basket:hover{color: black;} .Room:hover{color: black;}  
+		 
+.nameMark{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+	.markMargin{
+		background-color: rgb(255, 255, 0);
+		width: 700px;
+		height: 60px;
+		text-align: center;
+	}
+		.zagolovok{
+			font-size: 35px;
+		}
+
+
+
+/*-----------------markiMashin-----------------*/
+
+.markiMashin{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+    margin-top: 76px;
+}
+.markiMashin1{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+    margin-top: 0;
+}	
+	.flexCenter{
+		width: 90%;
+		height: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.blockMark{
+		width: 100px;
+		height: auto;
+		border: 1px solid silver;
+		text-align: center;
+		margin: 15px 9px;
+	}
+	.blockMark:hover{
+		background-color: rgba(0, 0, 0, 0.5);
+		transition: 2s;
+	}
+	.imgMark {
+	    width: 93%;
+	    height: 107px;
+	}
+/*-------------------content-------------------------------*/
+
+
+.content{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+} 
+	.contentMargin{
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between
+	}
+	.imgPng{
+		width: 50%;
+		height: auto;
+	}
+	.form{
+		width: 50%;
+		height: auto;
+	}
+		.formObertka{
+			width: 500px;
+			height: 319px;
+			background: #f5f5f5;
+			margin: 0 auto;
+			margin-top: 50px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			text-align: center;
+			overflow: hidden;
+		}
+			.textForm{
+				width: 100%;
+				height: 49px;
+				margin-top: 20px;
+			}
+				.formObertka input{
+					width: 90%;
+					height: 34px;
+					outline: none;
+					border: 1px solid gray;
+					border-radius: 5px;
+					margin-top: 10px;
+					padding-left: 10px;
+					font-weight: bold;
+					font-size: 15px;
+				}
+				.formObertka button{
+					width: 33%;
+					height: 34px;
+					outline: none;
+					border: 2px solid #ffbf11;
+					margin-top: 10px;
+					background: #ffbf11;
+					color: black;
+					font-size: 20px;
+				}
+				.formObertka button:hover{
+					background: #fff;
+					color: #ffbf11;
+				}
+
+.imgPng{
+	text-align: center;
+	margin-top: 47px;
+}
+.imgCateori{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+		.warranty{
+			margin: 10px;
+			width: 250px;
+			height: 250px;
+			background: orange;
+		}
+		.delivery{
+			margin: 10px;
+			width: 250px;
+			height: 250px;
+			background: orange;
+		}
+
+/*---------------map----------------------*/
+
+.map{
+	width: 90%;
+	height: 400px;
+	background: #ccc;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+/*----------------------contentText------------*/
+
+.contentText{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+} 
+
+/*------------------------------text-------------*/
+
+.text{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/*----------------------razrabotka----------------------*/
+
+.razrabotka{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+} 
+	.obj{
+		width: 100%;
+		height: auto;
+		margin: 20px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+		.img{
+			width: 120px;
+			height: 120px;
+		}	
+			.redCap{
+				width: 100%;
+				height: 100%;
+			}
+			.textR{
+				width: 1050px;
+				height: auto;
+				padding: 10px;
+			}
+				.textR span{
+					font-weight: bold;
+					font-size: 15px;
+				}
+				.textR p{
+					font-size: 14px;
+					line-height: 23px;
+				}
+
+/*---------------------------footer--------------------*/
+
+footer{
+	width: 100%;
+	background: #202020;
+}
+	.footer{
+		width: 266px;
+		height: auto;
+	}
+	.marginFooter{
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+.footer{
+	padding: 10px;
+}
+.footer b{
+	 color: #fff;
+}
+.footer p{
+ 	color: green;
+}
+ 
+	
+	.footer span{
+		color: white;
+		font-size: 14px;
+	}
+	.footer strong{
+		color: yellow;
+		font-size: 14px;
+	}
+		.footer a{
+			text-decoration: none;
+			color: #cfcfcf;
+		}
+
+.logo-footer{
+	width: 85%;
+    margin-bottom: 17px;
+}
+
+/*------------------------lastFooter---------------------*/
+
+.lastFooter{
+	width: 100%;
+	height: auto;
+	background: #000;
+} 
+	.kartDiv{
+		width: 90%;
+		margin: 0 auto;
+		height: auto;
+		text-align: center;
+	}	
+		.kartDiv a{
+			text-decoration: none;
+			color: #cfcfcf;
+		}
+		.kartDiv span{
+			color: #cfcfcf;
+		}
+		.kartDiv p{
+			color: #cfcfcf;
+		}
+.textFot{
+	width: 90%;
+	height: 60px;
+	margin: 0 auto;
+}
+	.textResponsive{
+		float: left;
+		width: auto;
+		height: 55px;	
+	}
+	.iconInst{
+		float: right;
+	}
+		.iconInst i{
+			font-size: 30px;
+			color: yellow;
+			text-align: left;
+		}
+	.hrefImg{
+		width: 81px;
+		height: 55px;
+	}
+
+/*------------------------ contact ------------------*/
+
+
+.ggg{
+	width: 100%;
+	height: 70px;
+	background: #f5f5f5;
+}
+	.ggg p{
+		font-size: 12px;
+		color: #000;
+		line-height: 70px;
+		margin-left: 100px;
+	} .ggg a{color: #000;}
+	
+.model{
+	width: 500px;
+	height: 50px;
+	margin: 30px auto;
+	background-color: rgb(255, 255, 224);
+	text-align: center;
+}
+	.model h2{
+		color: #22275d;
+		line-height: 50px;
+	}
+
+	.modelTwo{
+		width: 500px;
+		height: 50px;
+		margin: 30px auto;
+		background-color: rgb(255, 255, 224);
+		text-align: center;
+	}
+		.modelTwo{
+			color: #22275d;
+			line-height: 50px;
+		}
+	
+
+/*-----------------------glavMargin-------------------*/ 
+
+.contactus{
+	width: 100%;
+}
+
+.glavMargin{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}	
+	.hr{
+		width: 1200px;
+		height: auto;
+		border-bottom: 2px solid #ccc;
+		margin: 0 auto;
+	}
+		.hr h3{
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+	.form_two{
+		width: 50%;
+		height: auto;
+	}
+	.form_two b{
+		font-size: 12px;
+	}
+	.form_two p{
+		font-size: 12px;
+	}
+	.map_two{
+		width: 50%;
+		height: auto;
+	}
+		.map_two p{
+			font-size: 12px;
+		}
+			.mapContactTwo{
+				width: 100%;
+				height: 300px;
+				background: blue;
+			}
+			.contactsInputWrap{
+				width: 100%;
+				height: auto;
+				margin-top: 50px;
+			}
+.wrapForm button{
+	width: 150px;
+	height: 40px;
+	border: 3px solid #ffbf11;
+	color: #000;
+	background: #ffbf11;
+	font-size: 17px;
+	font-weight: bold;
+	outline: none;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.wrapForm button:hover{
+	color: #ffbf11;
+	background: #fff;
+	font-size: 17px;
+}
+.colums1{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+	.colums1 input{
+		width: 90%;
+		height: 30px;
+		outline: none;
+		border: 1px solid #ccc;
+		padding-left: 5px;
+	}
+.label{
+	width: 100%;
+	height: 40px;
+}
+	.label label{
+		line-height: 40px;
+		font-weight: bold;
+		font-size: 14px;
+		color: #000;
+	}
+.colums2{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+	.colums2 input{
+		width: 90%;
+		height: 30px;
+		outline: none;
+		border: 1px solid #ccc;
+		padding-left: 5px;
+	}
+.colums3{
+	float: left;
+	width: 100%;
+	height: auto;
+}	
+	.colums3 input{
+		width: 45%;
+		height: 30px;
+		outline: none;
+		border: 1px solid #ccc;
+		padding-left: 5px;
+	}
+.colums4{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+	.colums4 textarea{
+		width: 95%;
+		height: 100px;
+		outline: none;
+		border: 1px solid #ccc;
+		padding-left: 5px;
+	}
+
+/*----------------------------------------comtentplace--------------------------*/
+
+.comtentplace{
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+} 
+	.authorization{
+		width: 45%;
+		height: auto;
+		float: left;
+	}	
+		.authorization p{
+			color: #5e5e5e;
+			margin-top: 20px;
+			font-size: 15px;
+			line-height: 27px;
+		}	
+			.authorization button{
+				outline: none;
+				color: #000;
+				background: #ffbf11;
+				border: 3px solid #ffbf11;
+				width: 250px;
+				height: 45px;
+				font-size: 16px;
+				margin-top: 50px;
+				font-weight: bold;
+			}
+			.authorization button:hover{
+				color: #ffbf11;
+				background: #fff;
+			}
+				.userAvt{
+					width: 100%;
+					height: auto;
+					border-bottom: 1px solid #ccc;
+					margin-top: 20px;
+				}
+				.userAvt p{margin-bottom: 20px; color: #000; font-size: 17px;}
+				
+				.reg{
+					width: 100%;
+					height: auto;
+					border-bottom: 1px solid #ccc;
+					margin-top: 20px;
+				}
+				.reg p{margin: 45px 0; color: #000; font-size: 17px;}
+ 
+	.registrationUser{
+		width: 45%;
+	    height: auto;
+		float: right;
+		border-bottom: 1px solid #ccc;
+	}	
+		.registrationUser b{
+			color: #000;
+		}
+		.registrationUser p{
+			color: #5e5e5e;
+		    font-size: 17px;
+		}
+		.itgo{
+			width: 300px;
+			height: auto;
+		}
+			.itgo input{
+				width: 100%;
+				height: 27px;
+				outline: none;
+	            border: 1px solid #e5e5e5;
+	            margin-top: 10px;
+			}
+	.ForgotYourPassword{
+		width: 300px;
+		height: 59px;
+		margin-top: 50px;
+	}
+			.ForgotYourPassword button{
+				float: right;
+				outline: none;
+				color: #000;
+				background: #ffbf11;
+				border: 3px solid #ffbf11;
+				width: 100px;
+				height: 45px;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.ForgotYourPassword button:hover{
+				color: #ffbf11;
+				background: #fff;
+			}
+			.RecoveryPassword{
+				float: left;
+				margin-top: 10px;
+			}
+				.RecoveryPassword a{
+					color: #000;
+					font-weight: bold;
+				    font-size: 17px;
+				}
+/*------------------------------------------category-------------------------------*/
+
+.centerBlock{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+	.marginCar{
+		width: 1200px;
+		height: auto;
+	}
+		.categoryCar{
+			width:  400px;
+			height: auto;
+			float: left;
+		}
+		.badgesCar{
+			width: 800px;
+			height: auto;
+			float: right;
+			text-align: center;
+		}
+		.h3Linear{
+			width: 100%;
+			height: 53px;
+		}
+		.aside-block-header:before {
+		        content: '';
+			    display: block;
+			    position: relative;
+			    width: 80px;
+			    height: 3px;
+			    background: #8a8989;
+			    top: 49px;
+		}
+		.aside-block-header:after {
+		    content: '';
+		    display: block;
+		    position:  relative;
+		    width: 100%;
+		    height: 2px;
+		    border-top: 1px solid #8a8989;
+		    border-bottom: 1px solid #8a8989;
+		    top: 20px;
+		}
+.spisokBlock{
+	width: 97%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 59px;
+}
+	.spisokBlock li{
+		list-style-type: square;
+		color: #ccc;
+	}
+	#list {
+		margin-left: 10px; 
+	}
+	.spisokBlock a{
+		display: block;
+		text-decoration: none;
+		color: #464646;
+	}
+	.spisokBlock a:hover{
+		color: #ccc;
+	}
+	.spisokBlock i{
+		float: right;
+	}
+	
+	
+	.models{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+		.markCar{
+			width: 193px;
+			height: auto;
+		    margin: 5px 6px;
+		    border: 1px solid #ccc;
+		    z-index: 200;
+		    cursor: pointer;
+		}
+		.markCar:hover{
+			background: silver;
+			transition: 1s;
+		}
+			.obzorCar{
+				width: 100%;
+			    height: 153px;
+			}
+				.textTwo p{
+					color: #000;
+					font-weight: bold;
+				}
+				.textTwo{
+					z-index: 100;
+					text-align: center;
+					width: 90%;
+					margin: 0 auto;
+					margin-bottom: 20px;
+				}
+
+/*------------------------------------------karzina--------------------------------------*/
+
+.karzina{
+	width: 100%;
+	height: 100px;
+} 
+	.karzina h2{
+		 line-height: 100px;
+	}
+
+.serchForm{
+	width: 92%;
+	height: auto;
+	box-shadow: 3.5px 3.5px 7px rgba(0, 0, 0, 0.55);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	background-color: rgba(192,192,192,.2);
+}
+	.serchForm input{
+		width: 90%;
+		height: 27px;
+		margin-top: 10px;
+		outline: none;
+	    border: 1px solid rgba(0, 0, 0, 0.35);
+	    padding-left: 12px;
+	}
+	.serchForm h3{
+		margin-top: 20px;
+	}
+	.serchForm p{
+		margin-top: 15px;
+	}
+			.serchForm button{
+				margin-top: 10px;
+				margin-bottom: 10px;
+				outline: none;
+				color: #000;
+				background: #ffbf11;
+				border: 3px solid #ffbf11;
+				width: 140px;
+				height: 45px;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.serchForm button:hover{
+				color: #ffbf11;
+				background: #fff;
+			}
+
+
+.asideBanner{
+	width: 93%;
+	height: 250px;
+	background: lime;
+	margin-top: 30px;
+}
+
+/*------------------------navMenuBtn-------------------------*/
+
+.navMenuBtn{
+	display: none;
+} 
+.navigationMax{
+	display: none;
+}
+
+/*----------------------------------------regRu----------------------------*/
+
+.regRu{
+	width: 100%;
+	height: auto;
+}
+	.marginRegRu{
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+		.hr_two{
+			width: 100%;
+			height: 100px;
+			border-bottom: 2px solid #ccc;
+			overflow: hidden;
+		}
+		.hr_two h3{
+			margin-top: 19px;
+		}
+		.hr_two1{
+			width: 100%;
+			height: 70px;
+			border-bottom: 2px solid #ccc;
+		}
+		.hr_two1 h4{
+			line-height: 70px;
+		}
+
+	.inputRegruinputRegru{
+		width: 100%;
+		height: auto;
+	}
+	.inputRegru{
+		width: 100%;
+		border-bottom: 2px solid #ccc;
+	}
+		.inputRegru input{
+			width: 300px;
+			height: 27px;
+			outline-color: red;
+			border: 1px solid #ccc;
+			padding-left: 7px;
+			margin-top: 15px;
+		}
+		.inputRegru input[type="checkbox"]{
+			width: 36px;
+			height: 27px;
+			outline-color: red;
+			border: 1px solid #ccc;
+			padding-left: 7px;
+			margin-top: 15px;
+		    margin-bottom: 20px;
+		}
+			.inputRegru label{
+					font-weight: bold;
+					margin-top: 10px;
+			}
+
+
+
+	.inputRegruTwo{
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+		.inputRegruTwo input{
+			width: 300px;
+			height: 27px;
+			outline-color: red;
+			border: 1px solid #ccc;
+			padding-left: 7px;
+		}
+			.btnMes{
+				width: 280px;
+				height: 55px;
+				background: #ffbf11;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				border: 2px solid #ffbf11;
+			}
+			.gotoprevbtn{
+				width: 140px;
+				height: 55px;
+				color: #000;
+				float: left;
+				border: none;
+				outline: none;
+				background: #ffbf11;
+				font-size: 17px;
+				font-weight: bold;
+			}
+				.gotoprevbtn:hover{
+					background: #fff;
+				}
+
+			.gotonextbtn{
+				font-size: 17px;
+				font-weight: bold;
+				border: none;
+				outline: none;
+				background: #ffbf11;
+				float: right;
+				width: 140px;
+				height: 55px;
+				color: #000;
+			}
+				.gotonextbtn:hover{
+					background: #fff;
+				}
+/*--------------------------------@media screen and  ------------------------*/
+
+@media screen and (max-width: 1346px){
+		.zapshasti {
+		    width: 277px;
+		    height: 31px;
+		}
+		.logoImg {
+		    width: 246px;
+		    height: 39px;
+		 }
+		 .search {
+		    width: 352px;
+		    height: auto;
+		    margin-top: 39px;
+		}
+		.block {
+    		width: 394px;
+    	}
+    	.search span {
+		    font-size: 14px;
+		}
+}
+
+
+
+@media screen and (max-width: 1230px){
+	.badgesCar {
+	    width: 100%;
+	    height: auto;
+	    float: none;
+	    text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.categoryCar {
+	    width: 100%;
+	    height: auto;
+	    float: none;
+	    margin: 0 auto;
+	}
+	.serchForm input {
+  	  width: 37%;
+	}
+	.asideBanner {
+	    width: 50%;
+	    margin: 27px auto;
+	}
+}
+
+@media screen and (max-width: 1100px){
+		.zapshasti {
+		    width: 277px;
+		    height: 31px;
+		}
+		.logoImg {
+		    width: 246px;
+		    height: 39px;
+		 }
+		 .search {
+		    width: 352px;
+		    height: auto;
+		    margin-top: 11px;
+		}
+		.block {
+    		width: 394px;
+    	}
+    	.search span {
+		    font-size: 14px;
+		}
+		.marginHeader{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.firstHeader{
+			height: auto;
+		}
+		.marginHeader{
+			height: auto;
+		}
+		
+		.contentMargin{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.content {
+		    margin-top: 0;
+		}
+
+		.obj{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.textR{
+			width: 90%;
+		}
+		.marginFooter{
+			display: flex;
+		 	flex-direction: column;
+		}
+		.iii{
+			margin: 0 auto;
+			width: 127px;
+			height: 50px;
+		}
+		.footer{
+			width: 100%;
+			text-align: center;
+		}
+		
+		.formObertka{
+			width: 100%;
+		}
+
+}
+
+@media screen and (max-width: 1235px){
+	.glavMargin {
+	    width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.mapContactTwo {
+	    margin-bottom: 22px;
+	}
+	.hr {
+	    text-align: center;
+	     width: 100%;
+	}
+}
+
+@media screen and (max-width: 1220px){
+	.menuMargin a {
+	    font-size: 16px;
+	    padding: 4px 17px;
+	}
+	.comtentplace {
+	    width: 91%;
+	    height: auto;
+	    margin: 0 auto;
+	}
+	.authorization {
+	    width: 90%;
+	    height: auto;
+	    float: none;
+	    margin: 0 auto;
+	}
+	.registrationUser {
+	    width: 90%;
+	    height: auto;
+	    float: none;
+	    border-bottom: 1px solid #ccc;
+	    margin: 0 auto;
+	}
+
+}
+@media screen and (max-width: 1197px){
+	.menuMargin a {
+	    font-size: 14px;
+	    padding: 4px 17px;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+	.imgMark {
+	    width: 93%;
+	    height: 82px;
+	}
+	.markiMashin {
+	    margin-top: 33px;
+	}
+	.zagolovok {
+	    font-size: 28px;
+	}
+	
+	.menuMargin a {
+	    font-size: 16px;
+	    padding: 4px 5px;
+	}
+
+}
+
+@media screen and (max-width: 915px) {
+		.menuMargin{
+			display: none;
+		}
+		.navMenuBtn{
+			width: 90%;
+			display: block;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+		} 
+			.navMenuBtn button{
+				font-size: 41px;
+				float: left;
+				border: none;
+				outline: none;
+				background: transparent;
+				color: white;
+				margin-left: 5px;
+			}
+			.navMenuBtn p{
+				font-weight: bold;
+			}
+		.navigationMax{
+			width: 70%;
+			height: 200px;
+			position: absolute;
+			top: 355px;
+			background: #fff;
+		    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.15);
+		}
+		
+		.flexleft{
+			width: 132px;
+			height: 30px;
+		}
+			.flexleft a{
+				font-size: 17px;
+				text-decoration: none;
+				font-weight: bold;
+				color: white;
+			}
+		.centerflex{
+			width: 47px;
+			height: auto;
+		}
+		.flexright{
+			width: auto;
+			height: 30px;
+		}
+			.flexright a{
+				font-size: 17px;
+				text-decoration: none;
+				font-weight: bold;
+				color: white;
+			}
+		
+		.zagolovok{
+			font-size: 22px;
+		}
+		.markMargin{
+			height: 40px;
+		}
+		.formObertka button{
+			font-size: 14px;
+			width: 90%;
+		}
+		.navigationMax{
+			text-align: center;
+		}
+		.navigationMax li{
+				list-style: none;
+		}
+		.navigationMax a{
+				width: 100%;
+				height: 34px;
+				color: #000;
+				display: block;
+				text-decoration: none;
+				background: #fff;
+				line-height: 34px;
+		}
+		.navigationMax a:hover{
+			border-bottom: none;
+			background: #ccc;
+			transition: 1s;
+		}
+		
+		.flexCenter {
+		    width: 100%;
+		    height: auto;
+		    display: flex;
+		    justify-content: center;
+		    flex-direction: column;
+		    align-items: center;
+		}
+		.blockMark {
+		    width: 251px;
+		}
+		.imgMark {
+		    width: 99%;
+		    height: 136px;
+		}
+		.zagolovok {
+		    font-size: 17px;
+		}
+}
+@media screen and (max-width: 890px){
+	.models {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.map_two {
+	    width: 100%;
+	}
+	.form_two {
+	    width: 97%;
+	    height: auto;
+	}
+}
+@media screen and (max-width: 712px){
+		.textForm{
+			height: auto;
+		}
+		.textForm h4{
+			font-size: 14px;
+		}
+		.textForm span{
+			font-size: 14px;
+		}
+		
+		.modelTwo{
+			width: 343px;
+		}
+		.modelTwo h2{
+			font-size: 17px;
+		}
+		.comtentplace {
+		    width: 100%;
+		    margin: 0 auto;
+		}
+
+} 
+
+@media screen and (max-width: 549px){
+	.model {
+   			 width: 320px;
+		}
+		.model h2{
+			font-size: 15px;
+		}
+}
+
+@media screen and (max-width: 512px) {
+		.block button {
+    		width: 73px;
+    		font-size: 15px;
+    	}
+    	.block {
+		    width: 345px;
+		}
+
+		.modelTwo{
+			width: 237px;
+		}
+		.modelTwo h2{
+			font-size: 12px;
+		}
+
+
+}

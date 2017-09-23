@@ -1,0 +1,159 @@
+				.slider-box{
+				  position:relative;
+				  width: 1200px;
+				  height: 310px;
+				  overflow:hidden;
+				  background red;
+				}
+				.slider{
+				  position:relative;
+				  width:10000px;
+				  height:210px;
+				}
+				.slider img{
+				  float:left;
+				}
+				.slider-box .prev, .slider-box .next{
+				  position:absolute;
+				  top:100px;
+				  display:block;
+				  width:29px;
+				  height:29px;
+				  cursor:pointer;
+				}
+				.slider-box .prev{
+					  top: 0;
+					  left: 0;
+					  width: 22px;
+					  height: 310px;
+					  background-color: rgba(192,192,192, 0.5);
+				}
+					.slider-box .prev i{
+						font-size: 25px;
+						margin-top: 150px;
+					}
+				.slider-box .next {
+				    right: 0px;
+				    width: 22px;
+				    height: 310px;
+				    background-color: rgba(192,192,192, 0.5);
+				    top: 0;
+				}
+					.slider-box .next i{
+						font-size: 25px;
+						margin-top: 150px;
+					}
+
+				.go{
+					width: 100%;
+					height: auto;
+				}
+				.slider_img{
+					width: 1200px;
+					height: 310px;
+				}
+.sliderCenter{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1240px){
+		.slider_img{
+			width: 900px;
+			height: 310px;
+		}
+		.sliderCenter {
+   			width: 900px;
+   			margin: 0 auto;
+   		}
+   		.slider-box{
+				  position:relative;
+				  width: 900px;
+		}
+}
+
+@media screen and (max-width: 1024px) {
+		.slider_img{
+			width: 770px;
+			height: 310px;
+		}
+		.sliderCenter {
+   			width: 770px;
+   			margin: 0 auto;
+   		}
+   		.slider-box{
+				  position:relative;
+				  width: 770px;
+		}
+}
+
+@media screen and (max-width: 823px){
+		 .slider_img{
+			width: 570px;
+			height: 310px;
+		}
+		.sliderCenter {
+   			width: 570px;
+   			margin: 0 auto;
+   		}
+   		.slider-box{
+				  position:relative;
+				  width: 570px;
+		}
+}
+@media screen and (max-width: 623px){
+		 .slider_img{
+			width: 370px;
+			height: 290px;
+		}
+		.sliderCenter {
+   			width: 370px;
+   			margin: 0 auto;
+   		}
+   		.slider-box{
+				  position:relative;
+				  width: 370px;
+		}
+		.slider-box .next {
+		    height: 290px;
+		}
+		.slider-box .prev {
+		    height: 290px;
+		}
+
+}
+
+	.positionAbsolute{
+		width: 700px;
+		height: 266px;
+		box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.25);
+		position: absolute;
+		display: none;
+		background: #fff;
+		text-align: center;
+		top: 37px;
+		z-index: 2000;
+	}
+	.aFlex{
+		display: flex;
+		justify-content: space-between;
+	}
+       .positionAbsolute p {
+       		color: black; 
+			text-align: center;
+			
+       }
+        .positionAbsolute a{
+        	border-bottom: 2px solid #ccc;
+       		color: black; 
+			font-size: 14px;
+       }
+
+/*-----------------------------clickKarzina---------------------*/
+
+.clickKarzina{
+	width: 100px;
+	height: 100px;
+	background: red;
+	display: none;
+}

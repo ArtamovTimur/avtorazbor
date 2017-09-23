@@ -1,0 +1,125 @@
+body{
+	font-family: arial;
+}
+h1{
+	text-align: center;
+}
+.nav{
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+	.nav a{
+		text-decoration: none;
+		color: black;
+		margin: 10px;
+		font-size: 20px;
+		padding: 10px;
+	}
+	.nav a:hover{
+		border-radius: 7px;
+		background: red;
+		color: white;
+	}
+h2{
+	text-align: center;
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}	
+
+	.show a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;	
+	} .show a:hover{color: red;}
+	.show li{
+		line-height: 32px;
+	}
+	.edit a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+	} .edit a:hover{color: red;}
+	.edit li{
+		line-height: 32px;
+	}
+
+.product-block{
+	width: 300px;
+	background: #fffff;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid red;
+}
+.product-block img{
+	width: 100%;
+	height: 200px;
+}
+	.product-block a{
+		color: white;
+		padding: 10px;
+		border-radius: 5px;
+		background: red;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: none;
+	}.product-block a:hover{background: orange; transition: 1s;}
+	.product-block p{
+		margin-top: 30px;
+	}
+
+.formGO{
+	width: 100%;
+	text-align: center;
+}
+.newZapchast{
+	width: 100%;
+	height: 50px;
+	background: red;
+}
+.newZapchast h1{
+	line-height: 50px;
+	color: white;
+}
+.formGO h1{
+	font-size: 20px;
+}
+	.formGO input[type="text"]{
+		width: 300px;
+		height: 30px;
+		outline-color: red;
+	}
+	.formGO input[type="submit"]{
+		width: 320px;
+		height: 50px;
+		outline: none;
+		background: red;
+		border: none;
+		color: white;
+		font-weight: bold;
+		font-size: 19px;
+		border-radius: 5px;		
+	}
+
+	.formGO textarea{
+		width: 300px;
+		height: 100px;
+		outline-color: red;
+	}
+	.formGO select{
+		outline: none;
+		width: auto;
+		height: 40px;
+		text-align: center;
+		border-radius: 5px;
+		background: red;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+	}
